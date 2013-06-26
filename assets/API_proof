@@ -1,0 +1,6 @@
+Display station types
+http://devapi.mygasfeed.com/stations/brands/rfej9napna.json?callback=?
+Display stations around Lat/Long
+http://devapi.mygasfeed.com/locations/geoaddress/29.7088/-82.0509/rfej9napna.json
+Display stations and fuel price at Lat/Long
+http://devapi.mygasfeed.com/stations/radius/29.7088/-82.0509/10/reg/price/rfej9napna.json?callback=?
