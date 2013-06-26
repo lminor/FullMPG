@@ -1,14 +1,7 @@
-MDD_1306
+MDD-1306
 ========
 
-Mobile Device Deployment
+This is my MDD web application named Full MPG.
 
-Github has not been allowing me to commit to my repository so please check this site for my up to date files.
-
-https://www.dropbox.com/sh/7566dddpvldf1es/Bki0HGcRxP
-
-http://localhost:8888/FullMPG/public/
-
-My classes are kept in the FullMPG/fuel/app/classes folder.
-
-Views are located in FullMPG/fuel/app/views folder.
+I am using the mygasfeed.com web api. The goal of this application is to retrieve fuel prices near the user. This api is a development version so a lot of the results are not 100% accurate if they work at all but this was the only API that I could find regarding fuel.
+In future developments I would like to create a database where users can log in and add their current mileage, amounts of fuel added and tally up fuel efficiency as well as current cost of running their vehicle based on the cost of fuel in their area.
