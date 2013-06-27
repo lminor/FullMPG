@@ -11,10 +11,9 @@
 	?>
 
 	<ul>
-		<li><a href="auth.php" class="small button asphalt">Members Only</a></li>
-    <li><a href="profile.php" class="small button asphalt">Manage Account</a></li>
-    <!--<li><a href="user.php?id=<?php echo mysql_real_escape_string($u_num); ?>" class="small button asphalt">My Public Profile</a></li>-->
-	<li><a href="logout.php" class="small button asphalt">Logout</a></li>
+		<!---<li><a href="auth.php" class="small button asphalt">Members Only</a></li>--->
+    	<!---<li><a href="profile.php" class="small button asphalt">Manage Account</a></li>--->
+    	<li><a href="logout.php" class="small button asphalt">Logout</a></li>
 	</ul>
 
 	</div>

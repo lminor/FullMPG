@@ -38,7 +38,7 @@ html, .html {
 html, body, .document, .html, .body {
   width: 100% !important;
   min-height: 100%;
-  background: white;
+  background: grey;
   margin: 0;
   padding: 0;
 }
@@ -3228,7 +3228,7 @@ html, body, .document, .html, .body {
 }
 
 a, a:visited {
-  color: #198D98;
+  color: black;
   -ms-transition: color 0.25s;
   -o-transition: color 0.25s;
   -moz-transition: color 0.25s;
@@ -3483,7 +3483,7 @@ pre code:before, .pre code:before, pre .code:before, .pre .code:before {
 }
 
 .success, .valid {
-  color: #468847;
+  color: white;
 }
 
 .js .responsive:not(table) {
@@ -3501,7 +3501,7 @@ pre code:before, .pre code:before, pre .code:before, .pre .code:before {
 }
 
 ::selection {
-  background: #489ac1;
+  background: black;
   color: white;
   text-shadow: none;
 }
@@ -3606,8 +3606,8 @@ a.button:visited, [role~=button], nav.menu .menu-toggle, .menu.nav .menu-toggle 
   display: inline-block;
   word-wrap: break-word;
   padding: 0.25em 1em;
-  background: #1dabb8;
-  border: 1px solid #198d98;
+  background: grey;
+  border: 1px solid black;
   color: white;
   font-family: Helvetica, Arial, Geneva, sans-serif;
   font-weight: bold;
@@ -3635,7 +3635,7 @@ input[type=reset]:hover, .button:hover, [role~=button]:hover, nav.menu .menu-tog
 input[type=submit]:focus,
 input[type=button]:focus,
 input[type=reset]:focus, .button:focus, [role~=button]:focus, nav.menu .menu-toggle:focus, .menu.nav .menu-toggle:focus {
-  background: #198d98;
+  background: grey;
   text-decoration: none;
   color: white;
 }
@@ -4683,8 +4683,8 @@ nav ul li a, .nav ul li a, nav ul li a:visited, .nav ul li a:visited {
   width: 100%;
   word-wrap: break-word;
   padding: 0.25em 1em;
-  background: #1dabb8;
-  border-top: 1px solid #198d98;
+  background: black;
+  border-top: 1px solid black;
   color: white;
   font-weight: bold;
   font-size: 1em;
@@ -4698,7 +4698,8 @@ nav ul li a, .nav ul li a, nav ul li a:visited, .nav ul li a:visited {
   transition: background-color 0.25s ease-out;
 }
 nav ul li a:hover, .nav ul li a:hover, nav ul li a:focus, .nav ul li a:focus, nav ul li a:visited:hover, .nav ul li a:visited:hover, nav ul li a:visited:focus, .nav ul li a:visited:focus {
-  background: #198d98;
+  background: grey;
+  border-top: 1px solid black;
   color: white;
   text-decoration: none;
 }
@@ -4842,7 +4843,7 @@ nav ul ul li:only-child a, .nav ul ul li:only-child a {
   border-radius: 0 4px 4px 0;
 }
 nav ul.row li a, .nav ul.row li a {
-  border-left: 1px solid #198d98;
+  border-left: 1px solid grey;
   border-top: none;
   -ms-border-radius: 0;
   -o-border-radius: 0;

@@ -15,7 +15,7 @@
   $contentPage = 'auth';
   $user = NULL;
 
-  if (!empty($_SESSION['userInfo'])) {//userInfo check session
+  if (!empty($_SESSION['userInfo'])) {
     $contentPage = 'success';
     $user = $_SESSION['userInfo'];
   }

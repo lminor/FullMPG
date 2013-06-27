@@ -1,8 +1,8 @@
-	<div id="map-canvas"></div>
+<div id="map-canvas"></div>
 	<div class="container" align = "center">
 	
 <section id="wrapper">
-<meta name="viewport" content="width=620" />
+<meta name="viewport" content="width= 90%" />
 
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
     <article>
@@ -46,8 +46,7 @@ function success(position) {
 function error(msg) {
   var s = document.querySelector('#status');
   s.innerHTML = typeof msg == 'string' ? msg : "failed";
-  s.className = 'fail';
-  
+  s.className = 'fail';  
   // console.log(arguments);
 }
 
